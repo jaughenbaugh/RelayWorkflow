@@ -1,0 +1,21 @@
+--------------------------------------------------------
+--  DDL for Table AWF_NODE
+--------------------------------------------------------
+
+  CREATE TABLE "AWF_NODE" 
+   (	"ID_RECORD" NUMBER, 
+	"ID_PROCESS" NUMBER, 
+	"ID_PROC_REC" NUMBER, 
+	"NODE_TYPE" VARCHAR2(50 BYTE), 
+	"LAYOUT_COLUMN" NUMBER, 
+	"LAYOUT_ROW" NUMBER, 
+	"NODE_NAME" VARCHAR2(50 BYTE), 
+	"DESCRIPTION" VARCHAR2(500 BYTE), 
+	"IND_DISP_IF_ONE" NUMBER(1,0), 
+	"AMT_FOR_TRUE" NUMBER, 
+	"INTERVAL" NUMBER, 
+	"INTERVAL_UOM" VARCHAR2(20 BYTE), 
+	"IND_CONTINUE" NUMBER, 
+	"ID_SUBPROCESS" NUMBER, 
+	"ID_CHECK_STAMP" NUMBER
+   ) ;

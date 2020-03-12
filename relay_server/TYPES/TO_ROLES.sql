@@ -1,0 +1,19 @@
+--------------------------------------------------------
+--  DDL for Type TO_ROLES
+--------------------------------------------------------
+
+  CREATE OR REPLACE TYPE "TO_ROLES" as object 
+(ID_RECORD	NUMBER
+,ROLE_NAME	VARCHAR2(50 BYTE)
+,DESCRIPTION	VARCHAR2(500 BYTE)
+,ROLE_TYPE	VARCHAR2(50 BYTE)
+,IND_BROADCAST	NUMBER(1,0)
+,VALUE	VARCHAR2(250 BYTE)
+,IND_REL_DATA NUMBER
+,OBJ_OWNER VARCHAR2(128)
+,OBJ_NAME VARCHAR2(128)
+,OBJ_COL VARCHAR2(128)
+);
+
+
+/

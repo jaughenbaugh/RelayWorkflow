@@ -1,0 +1,4 @@
+Welcome to the madness
+
+The documents in this folder are some of the design component I created when developing Relay.  
+It is by no means an exhaustive set but they are some of the most relevant.

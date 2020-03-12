@@ -1,0 +1,3 @@
+SET DEFINE OFF;
+Insert into AWF_PARAMETERS (ID_RECORD,ID_CHECK_STAMP,PARAMETER_NAME,PARAMETER_VALUE,DESCRIPTION) values (1000,1000,'ACCT_ID',anydata.convertvarchar2(to_char(systimestamp,'YYYYMMDDSSSSSFF9')),'Account ID');
+Insert into AWF_PARAMETERS (ID_RECORD,ID_CHECK_STAMP,PARAMETER_NAME,PARAMETER_VALUE,DESCRIPTION) values (1001,1001,'AUTH_ID',anydata.convertvarchar2(relay_p_rest.f_guid_gen()),'Auth ID');
